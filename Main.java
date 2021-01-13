@@ -14,7 +14,6 @@ public class Main {
 
         boolean remainderZero = false;
         for (int i = 2; i <= number / 2; ++i) {
-git sgit s
             if (number % i == 0) {
                 remainderZero = true;
                 break;
@@ -25,6 +24,9 @@ git sgit s
             System.out.println( number + " is a prime number.");
         else
             System.out.println( number + " is not a prime number.");
-    }
+
+        scn.close();   // Will close the scanner for memory purpose.
+        }
+
 }
 
